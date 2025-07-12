@@ -1,20 +1,20 @@
 module.exports.config = {
-    name: "kiss",
-    version: "7.3.1",
-    hasPermssion: 0,
-    credits: "farhan",
-    description: "kiss",
-    commandCategory: "img",
-    usages: "[@mention]",
-    cooldowns: 5,
-    dependencies: {
-        "axios": "",
-        "fs-extra": "",
-        "path": "",
-        "jimp": ""
-    }
+  name: "kiss",
+  version: "3.1.1",
+  permssion: 0,
+  prefix: true,
+  credits: "farhan",
+  description: "Get kiss",
+  category: "img",
+  usages: "[@mention]",
+  cooldowns: 5,
+  dependencies: {
+      "axios": "",
+      "fs-extra": "",
+      "path": "",
+      "jimp": ""
+  }
 };
-
 module.exports.onLoad = async() => {
     const { resolve } = global.nodemodule["path"];
     const { existsSync, mkdirSync } = global.nodemodule["fs-extra"];
