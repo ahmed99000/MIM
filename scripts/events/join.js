@@ -66,8 +66,8 @@ ____________________________________\n\nযেকোনো কমান্ড �
 \n\উদাহারণ:\n${global.config.PREFIX}mark (text)\n${global.config.PREFIX}lexi (text)\n${global.config.PREFIX}trump (text)\n${global.config.PREFIX}info
 ____________________________________
 আর যেকোনো অভিযোগ অথবা হেল্প এর জন্য আমার বস 
-🥰👉𝐑𝐉 𝐅𝐀𝐑𝐇𝐀𝐍👈💚🌻 কে নক করতে পারেন-🥰🌺 
-🌻𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐋𝐈𝐍𝐊🌻:-                               👇[https://www.facebook.com/profile.php?id=61550529403710,🌺🤟]`, attachment: fs.createReadStream(gifPath)}, threadID));
+🥰👉𝐃𝐊 𝐒𝐀𝐍𝐓𝐎👈💚🌻 কে নক করতে পারেন-🥰🌺 
+🌻𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐋𝐈𝐍𝐊🌻:-                               👇[https://www.facebook.com/DK.TEAM.ER.C.E.O.OKY.UR.DAD,🌺🤟]`, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
 .catch(error => {
     console.error(error);
