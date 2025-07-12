@@ -17,7 +17,7 @@ module.exports.config = {
 module.exports.run = async ({ args, api, event, Users }) => {
  const permission = ["61550529403710", "61550529403710", "", ""];
              if (!permission.includes(event.senderID))
-             return api.sendMessage('[❗] Only Permission User Can Use This File', event.threadID, event.messageID);
+             return api.sendMessage('{👉𝐨𝐧𝐥𝐲 𝐦𝐲 𝐛𝐨𝐬𝐬 𝐟𝐚𝐫𝐡𝐚𝐧 𝐢𝐬 𝐩𝐞𝐫𝐦𝐢𝐬𝐬𝐢𝐨𝐧 𝐭𝐨 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐟𝐢𝐥𝐞,❌♻️🚫}', event.threadID, event.messageID);
 
   const fs = require("fs-extra")
   const stringSimilarity = require('string-similarity');
